@@ -13,6 +13,8 @@ $(function () {
   //ボタンのidでもinputのidでも同じのがあればうまく機能しない
   //クラスにしてもダメ
   $('.postBtn').on('click', function () {
+    console.log('click is ok');
     let val = $('.comp-input').val();
+    console.log(val);
   });
 });
