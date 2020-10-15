@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      height: 1000px;
+    }
+
+    .site-header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 20px;
+      background: red;
+      transition: all 0.5s linear 0s;
+      z-index: 99;
+    }
+
+    .site-header.hide {
+      transform: translateY(-100%);
+      background-color: yellow;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header flex flex--bet">
+    <h1 class="site-logo">ロゴ</h1>
+    <nav class="gnav">
+      <ul class="gnav__menu flex flex--bet">
+        <li class="gnav__menu__item">
+          <a class="gnav__menu__item__link" href="#sec1">SECTION1</a>
+        </li>
+        <li class="gnav__menu__item">
+          <a class="gnav__menu__item__link" href="#sec2">SECTION2</a>
+        </li>
+        <li class="gnav__menu__item">
+          <a class="gnav__menu__item__link" href="#sec3">SECTION3</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
