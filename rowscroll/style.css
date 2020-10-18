@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  overflow-x: scroll;
+  display: flex;
+  list-style-type: none;
+}
+.list-item {
+  width: 100%;
+  min-width: 140px;
+  height: 200px;
+  background-color: red;
+  border: 1px solid #333;
+}
