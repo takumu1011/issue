@@ -1,0 +1,12 @@
+.list {
+  display: flex;
+  place-items: center center;
+  background-color: skyblue;
+  list-style-type: none;
+  width: 500px;
+  height: 500px;
+}
+.list-items {
+  background-color: yellowgreen;
+  border: 1px solid red;
+}
